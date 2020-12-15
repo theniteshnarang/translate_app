@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+textarea{
+    width: 90vw;
+    height: 30vh;
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}
+
+#heading{
+    margin: 2rem 0;
+
+}
+
+
+
+#button_id{
+    width: 20vw;
+    height: 5vh;
+}
