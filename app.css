@@ -1,27 +1,42 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     text-align: center;
 }
 
+body {
+    background-color: aliceblue;
+}
 
-textarea{
-    width: 90vw;
+h1 {
+    margin: 2rem 0;
+}
+
+button {
+    width: 20vw;
+    height: 5vh;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+textarea {
     height: 30vh;
+    min-width: 90vw;
     display: block;
     margin: 1rem auto;
     font-size: 1.5rem;
+    background-color: lightblue;
 }
 
-#heading{
-    margin: 2rem 0;
-
-}
-
-
-
-#button_id{
-    width: 20vw;
-    height: 5vh;
+#outputHere {
+    font-size: 2rem;
+    border: 1px solid black;
+    width: 50vw;
+    min-width: 90vw;
+    height: 30vh;
+    margin: 2rem auto;
+    padding: 1rem;
 }
